@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-primary {
+    @apply bg-gray-950 py-3 px-6 shadow hover:bg-gray-950/90 text-white inline-flex items-center justify-center whitespace-nowrap
+    rounded-full text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none
+    disabled:opacity-50
+}
